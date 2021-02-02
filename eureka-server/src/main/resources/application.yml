@@ -5,6 +5,10 @@ spring:
   application:
     #服务名称
     name: server
+  security:
+    user:
+      name: liuyk
+      password: 123456
 eureka:
   client:
     #是否将自己注册到Eureka Server,默认为true，由于当前就是server，故而设置成false，表明该服务不会向eureka注册自己的信息
@@ -19,3 +23,9 @@ eureka:
     hostname: ek1.com
 #    prefer-ip-address: true
 #    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  server:
+    #关闭自我保护机制
+    enable-self-preservation: false
+
+
+

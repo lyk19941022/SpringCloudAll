@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.liuyukun.eureka-server</groupId>
-    <artifactId>eureka-comsumer</artifactId>
+    <artifactId>eureka-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-comsumer</name>
+    <name>eureka-consumer</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
@@ -25,6 +25,11 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <!--上报节点信息-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
         <dependency>

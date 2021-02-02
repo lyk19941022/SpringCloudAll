@@ -1,0 +1,21 @@
+server:
+  #服务端口号 默认是8080
+  port: 7002
+spring:
+  application:
+    #服务名称
+    name: server
+eureka:
+  client:
+    #是否将自己注册到Eureka Server,默认为true，由于当前就是server，故而设置成false，表明该服务不会向eureka注册自己的信息
+    register-with-eureka: true
+    #是否从eureka server获取注册信息，由于单节点，不需要同步其他节点数据，用false
+    fetch-registry: true
+    #设置服务注册中心的URL，用于client和server端交流
+    service-url:
+      defaultZone: http://ek1.com:7001/eureka/
+      #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  instance:
+    hostname: ek2.com
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}

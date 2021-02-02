@@ -1,0 +1,16 @@
+server:
+  #\u670D\u52A1\u7AEF\u53E3\u53F7 \u9ED8\u8BA4\u662F8080
+  port: 8001
+spring:
+  application:
+    #\u670D\u52A1\u540D\u79F0
+    name: provider
+eureka:
+  client:
+    #\u8BBE\u7F6E\u670D\u52A1\u6CE8\u518C\u4E2D\u5FC3\u7684URL\uFF0C\u7528\u4E8Eclient\u548Cserver\u7AEF\u4EA4\u6D41
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+

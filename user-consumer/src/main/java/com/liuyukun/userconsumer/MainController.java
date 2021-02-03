@@ -1,7 +1,6 @@
 package com.liuyukun.userconsumer;
 
 import com.liuyukun.userapi.Person;
-import com.liuyukun.userapi.UserApi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -16,10 +15,19 @@ public class MainController {
     @Autowired
     ConsumerApi api;
 
+    @Autowired
+    RestServer rest;
+
     @GetMapping("/alive")
     public String getHi(){
         return api.alive();
     }
+
+    @GetMapping("/alive2")
+    public String alive2(){
+        return rest.alive();
+    }
+
 
 //    @Autowired
 //    MashibingApi mapi;

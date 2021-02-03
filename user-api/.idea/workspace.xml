@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0802f012-2480-4d65-a001-4423d9c7fdcb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/HystrixTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/UserProviderBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/UserProviderBackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/com/liuyukun/eurekaserver/EurekaProviderApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/com/liuyukun/eurekaserver/LoggingClientHttpRequestInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/com/liuyukun/eurekaserver/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/com/liuyukun/eurekaserver/MainController2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/com/liuyukun/eurekaserver/MainController3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/com/liuyukun/eurekaserver/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/com/liuyukun/eurekaserver/ResponseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/test-classes/com/liuyukun/eurekaserver/EurekaProviderApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/target/classes/com/liuyukun/EurekaServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/target/test-classes/com/liuyukun/EurekaServerApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyukun/userapi/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyukun/userapi/UserApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyukun/userapi/UserApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyukun/userapi/UserApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.liuyukun.userapi.UserConsumerApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.liuyukun.userapi.UserConsumerApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.liuyukun.userapi.UserConsumerApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.liuyukun.userapi.UserConsumerApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/user-api-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/user-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/ConsumerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/ConsumerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/target/classes/META-INF/user-consumer.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/target/classes/META-INF/user-consumer.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/target/classes/com/liuyukun/userconsumer/ConsumerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/target/classes/com/liuyukun/userconsumer/ConsumerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/target/classes/com/liuyukun/userconsumer/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/target/classes/com/liuyukun/userconsumer/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/target/test-classes/META-INF/user-consumer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-provider/src/main/java/com/liuyukun/userprovider/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-provider/src/main/java/com/liuyukun/userprovider/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-provider/target/classes/com/liuyukun/userprovider/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-provider/target/classes/com/liuyukun/userprovider/UserController.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nyDqEf0eZGszrC8r9ACuG3l6NA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0802f012-2480-4d65-a001-4423d9c7fdcb" name="Default Changelist" comment="" />
+      <created>1612353625044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612353625044</updated>
+      <workItem from="1612353627319" duration="37000" />
+      <workItem from="1612356341710" duration="1233000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

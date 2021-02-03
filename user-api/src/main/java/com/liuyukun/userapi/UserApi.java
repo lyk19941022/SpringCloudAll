@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
-@RequestMapping("/user")
+//@RequestMapping("/user")
 public interface UserApi {
 
-    @GetMapping("/alive")
+    @GetMapping("/user/alive")
     public String alive();
 
-    @PostMapping("/postPerson")
+    @PostMapping("/user/postPerson")
     public Person postPerson(Person person);
 }

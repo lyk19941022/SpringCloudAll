@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5fbcf7b5-aa79-49dc-812f-f425a0486c67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/HystrixTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/RestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/UserProviderBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/UserProviderBackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/com/liuyukun/eurekaserver/EurekaProviderApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/com/liuyukun/eurekaserver/LoggingClientHttpRequestInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/com/liuyukun/eurekaserver/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/com/liuyukun/eurekaserver/MainController2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/com/liuyukun/eurekaserver/MainController3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/com/liuyukun/eurekaserver/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/classes/com/liuyukun/eurekaserver/ResponseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-consumer/target/test-classes/com/liuyukun/eurekaserver/EurekaProviderApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyukun/EurekaServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/liuyukun/EurekaServerApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-api/src/main/java/com/liuyukun/userapi/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-api/src/main/java/com/liuyukun/userapi/UserApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-api/target/classes/com/liuyukun/userapi/UserApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-api/target/classes/com/liuyukun/userapi/UserApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../user-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../user-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../user-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../user-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-api/target/surefire-reports/TEST-com.liuyukun.userapi.UserConsumerApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-api/target/surefire-reports/TEST-com.liuyukun.userapi.UserConsumerApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-api/target/surefire-reports/com.liuyukun.userapi.UserConsumerApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../user-api/target/surefire-reports/com.liuyukun.userapi.UserConsumerApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-api/target/user-api-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../user-api/target/user-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/ConsumerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/ConsumerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/UserConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/src/main/java/com/liuyukun/userconsumer/UserConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/target/classes/META-INF/user-consumer.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/target/classes/META-INF/user-consumer.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/target/classes/com/liuyukun/userconsumer/ConsumerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/target/classes/com/liuyukun/userconsumer/ConsumerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/target/classes/com/liuyukun/userconsumer/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/target/classes/com/liuyukun/userconsumer/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/target/classes/com/liuyukun/userconsumer/UserConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-consumer/target/classes/com/liuyukun/userconsumer/UserConsumerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-consumer/target/test-classes/META-INF/user-consumer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-provider/src/main/java/com/liuyukun/userprovider/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-provider/src/main/java/com/liuyukun/userprovider/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-provider/target/classes/com/liuyukun/userprovider/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-provider/target/classes/com/liuyukun/userprovider/UserController.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nvQ8c95w6ZqlPJVp4Pjigzm5KP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../user-consumer" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liuyukun" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liuyukun.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fbcf7b5-aa79-49dc-812f-f425a0486c67" name="Default Changelist" comment="" />
+      <created>1612267925490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612267925490</updated>
+      <workItem from="1612267928485" duration="1728000" />
+      <workItem from="1612269839856" duration="4224000" />
+      <workItem from="1612348906220" duration="33000" />
+      <workItem from="1612353584438" duration="1296000" />
+    </task>
+    <task id="LOCAL-00001" summary="111">
+      <created>1612276552734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612276552734</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="111" />
+    <option name="LAST_COMMIT_MESSAGE" value="111" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="545" y="116" key="CommitChangelistDialog2" timestamp="1612276551914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="545" y="116" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612276551914" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1612276542279">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612276542279" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1612353594486">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612353594486" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1612356993064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612356993064" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1612356993064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612356993064" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1612356993064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612356993064" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1612356993064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612356993064" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1612356993064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612356993064" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1612356993064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612356993064" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1612356993064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612356993064" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1612356993064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612356993064" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1612276681588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612276681588" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1612276681588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612276681588" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1612276681588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612276681588" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1612276681588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612276681588" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1612276554062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612276554062" />
+    <state x="645" y="322" key="git4idea.merge.GitPullDialog" timestamp="1612348919109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="645" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612348919109" />
+  </component>
+</project>

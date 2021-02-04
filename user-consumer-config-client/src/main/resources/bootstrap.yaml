@@ -28,7 +28,7 @@ spring:
     #通过注册中心查找
     #spring.cloud.config.discovery.enabled=true
     #spring.cloud.config.discovery.service-id=a-config
-
+#myconfig: 111
 eureka:
   client:
     #是否将自己注册到Eureka Server,默认为true，由于当前就是server，故而设置成false，表明该服务不会向eureka注册自己的信息

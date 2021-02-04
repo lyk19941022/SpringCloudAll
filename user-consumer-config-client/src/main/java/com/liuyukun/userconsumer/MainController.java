@@ -24,6 +24,11 @@ public class MainController {
     @Value("${myconfig}")
     String myconfig;
 
+    @GetMapping("/getConfig")
+    public String getConfig(){
+        return myconfig;
+    }
+
     @GetMapping("/alive")
     public String getHi(){
         return api.alive();

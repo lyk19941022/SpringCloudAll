@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: cloud-admin
+  # \u90AE\u4EF6\u8BBE\u7F6E
+  mail:
+    host: smtp.qq.com
+    username: 438396691
+    password: fgpwaaekjsugbgdb
+    properties:
+      mail:
+        smpt:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+  boot:
+    admin:
+      notify:
+        mail:
+          #\u6536\u4EF6\u90AE\u7BB1
+          to: 438396691@qq.com
+          # \u53D1\u4EF6\u90AE\u7BB1
+          from: 438396691@qq.com

@@ -30,7 +30,7 @@ public class UserController implements UserApi {
         int i = count.getAndIncrement();*/
         /*int i = 1/0;
         System.out.println(port+" ====好的第：" + i + "次调用");*/
-        return "port:" + port;
+        return " provider port:" + port;
     }
 
     private AtomicInteger count = new AtomicInteger();

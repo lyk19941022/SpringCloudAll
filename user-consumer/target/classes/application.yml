@@ -1,10 +1,22 @@
 server:
   #服务端口号 默认是8080
-  port: 6002
+  port: 6003
 spring:
   application:
     #服务名称
     name: user-consumer
+  #zipkin
+  zipkin:
+    base-url: http://localhost:9411/
+  #采样比例1
+  sleuth:
+    sampler:
+      rate: 1
+  boot:
+    admin:
+      #连接admin组件
+      client:
+        url: http://localhost:8080
 eureka:
   client:
     #是否将自己注册到Eureka Server,默认为true，由于当前就是server，故而设置成false，表明该服务不会向eureka注册自己的信息
@@ -35,11 +47,16 @@ management:
   endpoints:
     web:
       exposure:
+        #开启服务所有端点
         include: '*'
+  endpoint:
+    health:
+      show-details: always
 hystrix:
   command:
     default:
       execution:
         isolation:
+          #将Hystrix默认使用的线程池改成信号量
           strategy: SEMAPHORE
 

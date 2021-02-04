@@ -14,7 +14,7 @@ public class RestServer {
 
     @HystrixCommand(defaultFallback = "back")
     public String alive(){
-        String url = "http://user-provider/alive";
+        String url = "http://user-provider/user/alive";
         String str = restTemplate.getForObject(url, String.class);
         return str;
     }

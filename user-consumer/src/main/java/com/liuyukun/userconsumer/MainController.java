@@ -2,6 +2,7 @@ package com.liuyukun.userconsumer;
 
 import com.liuyukun.userapi.Person;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,6 +18,8 @@ public class MainController {
 
     @Autowired
     RestServer rest;
+    @Value("${server.port}")
+    String port;
 
     @GetMapping("/alive")
     public String getHi(){
@@ -25,7 +28,7 @@ public class MainController {
 
     @GetMapping("/alive2")
     public String alive2(){
-        return rest.alive();
+        return "consumer"+port+rest.alive();
     }
 
 
